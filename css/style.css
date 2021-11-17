@@ -22,6 +22,7 @@ header{
 
 main{
     margin-top: 250px;
+    width: 100%;
 }
 
 .col{
@@ -155,8 +156,9 @@ h1{
 }
 
 .maincontainer{
-    width: 600px;
+    width: 1200px;
     position: relative;
+    height: 500px;
 }
 
 .textr{
