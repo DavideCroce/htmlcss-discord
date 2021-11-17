@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    color: white;
+    
+    
+}
+
+.col{
+    float: left;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w60{
+    width: 60%;
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.topbar{
+    width: 100%;
+    background-color: dodgerblue;
+    height: 100px;
+    line-height: 100px;
+}
+
+.main-menu{
+    display: inline-block;
+
+}
+
+.button{
+    border-radius: 20px;
+    margin: 0 20px;
+    display: inline;
+    text-decoration: none;
+}
+
+.button-w{
+    background-color: #fff;
+    color: black;
+}
+.button-w:hover{
+    color: blue;
+}
+
+.button-p{
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+li{
+    display: inline;
+    margin:0 20px;
+    font-size: 18px;
+
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.clearfix::after{
+     display: table;
+     content: " ";
+     clear:both;
+}
+
+.c-2{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+}
+
+.jumbodrillo{
+    text-align: center;
+    width: 60%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
