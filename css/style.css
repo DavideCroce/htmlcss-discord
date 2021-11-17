@@ -20,6 +20,11 @@ header{
     
 }
 
+main{
+    width: 100%;
+    margin-top: 250px;
+}
+
 .col{
     float: left;
 }
@@ -35,6 +40,10 @@ header{
 
 .text-right{
     text-align: right;
+}
+
+.logo{
+    vertical-align: middle;
 }
 
 .topbar{
@@ -97,13 +106,84 @@ li{
     background-size: cover;
     text-align: center;
     height: 600px;
+    position: relative;
+
 }
 
 .jumbodrillo{
     text-align: center;
-    width: 60%;
+    width: 40%;
+    position: absolute;
+    bottom:40%;
+    left:30%;
+    display: inline;
+
+
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
+    margin-bottom: 30px;
 }
+
+.p-h{
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.buttons{
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    bottom: 25%;
+    left:30%;
+    display: inline;
+    font-size: 26px;
+}
+
+.button-g{
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.button-b{
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+.button-b:hover{
+    color: lightblue;
+}
+
+.maincontainer{
+    width: 600px;
+    position: relative;
+}
+
+.textr{
+    position: absolute;
+    left: 55%;
+}
+
+.imgl{
+    width: 600px;
+    height: 450px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%
+    
+}
+
+.img1 {
+    background-image: url(../img/item1.svg);
+}
+
+.img2{
+    background-image: url(../img/item2.svg);
+}
+
+.img3{
+    background-image: url(../img/item3.svg);
+}
+
+
