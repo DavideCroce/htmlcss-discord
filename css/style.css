@@ -155,48 +155,52 @@ h1{
     color: lightblue;
 }
 
-.maincontainer{
-    width: 1200px;
-    position: relative;
-    height: 500px;
+.bg-gray{
+    background-color: #f6f6f6;
+
 }
 
-.textr{
-    position: absolute;
-    left: 55%;
-}
-
-.imgl{
-    width: 300px;
-    height: 450px;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 20%
-    
-}
-
-.img1 {
-    background-image: url(../img/item1.svg);
-}
-
-.img2{
-    background-image: url(../img/item2.svg);
-}
-
-.img3{
-    background-image: url(../img/item3.svg);
+main section{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .w50{
     width: 50%;
 }
+
+.textr{
+    padding-left: 210px;
+    padding-top: 20px;
+    padding-right: 60px;
+}
+
 b{
-    font-size: 70px;
+    font-size: 50px;
 }
 
-.text{
-   width: 50%;
+.desc{
+    padding-top: 30px;
+    line-height: 25px;
 }
 
+.textl{
+    padding-right: 210px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
 
+.big-section{
+    margin-left: 300px;
+    text-align: center;
+    width: 70%;
+}
 
+.center{
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.title{
+    font-size: 40px;
+}
